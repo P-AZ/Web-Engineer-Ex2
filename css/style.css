@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, nav, footer, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo, #main-nav, .cover-photo button, .about h2, 
+    .about p, .about h6, .extra-boxes, .hobbies h2, footer section {
+    margin-left: 51.45px; 
+}
+
+header {
+    background-color: #ED4C5C;
+    height: 152px;
+    /*padding-left: 51.45px;*/
+    /*padding-top: 59px;*/
+    
+}
+
+#logo {
+    position:absolute;
+    background-image: url("../images/logo.png");
+    height: 18px;
+    /*width: 25px;*/
+    background-repeat: no-repeat;
+    /*background-size: contain; */
+    margin-top: 60.8px;
+    /*margin-left: 51.45px;*/
+    display: block;  
+    /* margin-top: 30px; take include the background */
+   
+}
+
+#logo span {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 34.65px;
+    
+}
+
+#main-nav {
+    position:absolute;
+    margin-top: 129px;
+}
+
+#main-nav a{
+    padding-right: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#main-nav a:hover {
+    color: gray;
+}
+
+.cover-photo {
+    background-color: #ED4C5C;
+    height: 506px;
+}
+
+.cover-photo img {
+    
+    margin-left: 89px;
+    margin-top: 45px;
+    width: 445px;
+    height: 311px;
+    border-radius: 15px;
+}
+
+.cover-photo button {
+    
+    color: #ED4C5C;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    width: 160px;
+    height: 50px;
+    margin-top: 45px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.main-middle {
+    background-color: #FFFFFF;
+    height: 657px;
+}
+
+.about h2 {
+    margin-top: 56px;
+    height: 89px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.about p {
+    
+    height: 83px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    text-align: justify;
+    color: #000000; 
+    margin-top: 30px;
+}
+
+.about h6 {
+    width: 71px;
+    height: 26.28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ED4C5C;
+    margin-top: 30px;
+}
+
+.extra-boxes {
+    margin-top: 40.72px;
+}
+
+.extra-boxes span{
+    /*display: inline-block;*/
+    /*width: 350px;*/
+    /*height: 248.86px;*/
+    margin-right: 30px;
+    
+}
+
+.extra-boxes img{
+    
+    /*width: 100%;*/
+    /*height: 100%;*/
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
+}
+
+
+.extra-boxes a{
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: -354px;
+    font-size: 14px;
+    vertical-align: 26px;
+    color: #ED4C5C;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.hobbies {
+    background-color: #F5F4F4;;
+    height: 657px;
+    padding-top: 57px;
+    padding-left: 51.45px;
+}
+.hobbies h2 {
+    /*margin-top: 57px*/
+    font-size: 36px;
+}
+
+
+.hobbies a {  /* why not hobbies span*/
+    display:inline-block;
+    margin-right: 30px;
+    height: 226px;
+    width: 255px;
+    background-color: #FFFFFF;
+    margin-top: 56px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.hobbies h4 {
+    margin-top: 11.35px;
+    text-align: center;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.hobbies img {
+    margin-top: 68.35px;
+    width: 70px;
+    height: 46.8px;
+    text-align: center;
+}
+
+.hobbies p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    /*width: 191px;*/
+    /*height: 51px;*/
+}
+
+footer {
+    height: 80px;
+    background-color: #ED4C5C;
+    color: #FFFFFF;
+}
+
+footer section{
+    padding-top: 31px;
+}
+
+footer img{
+    
+    width: 28px;
+    height: 28px;
+    margin-right: 28px;
+}
+
